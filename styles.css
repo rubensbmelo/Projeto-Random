@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif; /* Usei uma das fontes que você importou */
+    
+    /* Centralização Mágica */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh; /* Ocupa a altura toda da tela */
+    margin: 0;
+}
+
+input {
+    background: #404040; /* Cinza escuro */
+    border: 1px solid #707070;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    margin: 10px;
+    outline: none;
+}
+
+img {
+    width: 250px; /* Ajuste esse valor conforme achar melhor */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 64px; /* Tamanho do DevSorteio */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px; /* Tamanho do "Sortear um número" */
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+div {
+    display: flex;
+    gap: 20px; /* Espaço entre os dois campos */
+    margin-bottom: 30px;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ffffff33;
+    border-radius: 10px;
+    height: 40px; /* Diminuímos a altura */
+    width: 120px;  /* Diminuímos a largura */
+    color: white;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #aec34b;
+    color: white;
+    font-size: 18px; /* Fonte menor */
+    font-weight: 700;
+    width: 240px;    /* Botão menos largo */
+    height: 45px;    /* Botão menos alto */
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8; /* Efeito visual ao passar o mouse */
+}
